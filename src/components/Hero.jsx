@@ -129,7 +129,7 @@ const Hero = () => {
               currentIndex === totalVideos - 1 ? 1 : currentIndex
             )}
             onLoadedData={handleVideoLoad}
-            autoPlay
+            // autoPlay
             loop
             muted
           />
