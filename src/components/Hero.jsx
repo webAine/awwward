@@ -104,7 +104,7 @@ const Hero = () => {
               onClick={handleMiniVdClick}
             >
               <video
-                className="size-64 origin-center scale-150 object-cover object-center"
+                className="size-64 origin-center scale-150 object-cover object-center rounded-lg"
                 id="current-video"
                 ref={nextVideoRef}
                 src={getVideoSrc(upcomingVideoIndex)}
