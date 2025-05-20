@@ -1,8 +1,39 @@
-# React + Vite
+# Awwward
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, animated React website built with GSAP and styled using Tailwind CSS. Designed to deliver a smooth, visually engaging user experience.
 
-Currently, two official plugins are available:
+## 🚀 Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+1. Clone the repo:
+git clone https://github.com/webAine/awwward.git
+cd awwward
+
+2. Install dependencies:
+npm install
+
+3. Start the development server:
+npm run dev
+Visit http://localhost:5173 to see the site in action.
+
+🧰 Technologies
+    React 18
+    Vite
+    GSAP for advanced animations
+    Tailwind CSS for utility-first styling
+    react-use hooks for enhanced React functionality
+    react-icons for icons
+    ESLint for code quality
+
+🌟 Features
+    Smooth, high-performance animations and transitions
+    Responsive design optimized for desktop and mobile
+    Modern React hooks usage for clean and efficient code
+    Fast development and build process via Vite
+
+📂 Project Structure
+    src/components/ — reusable UI components
+    src/hooks/ — custom hooks
+    src/App.tsx — main app component
+    src/main.tsx — entry point
+    Tailwind CSS and ESLint configurations
